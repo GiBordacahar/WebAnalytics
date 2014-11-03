@@ -1,0 +1,12 @@
+<Context>
+	<Resource 
+		name="jdbc/webanalytics_db"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password=""
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/webanalytics_db"
+		maxActive="15"
+		maxIdle="3"/>
+</Context>
